@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "npx hardhat RUN starknet",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeExecutable": "${workspaceFolder}/node_modules/hardhat/internal/cli/cli.js",
+            "args": [
+                "run",
+                "--verbose",
+                "${workspaceFolder}/scripts/testAA.ts"
+            ],
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/scripts",
+        }
+    ]
+}
