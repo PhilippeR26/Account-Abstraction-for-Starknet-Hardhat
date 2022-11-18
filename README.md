@@ -18,7 +18,7 @@ This repo proposes a solution to tests anyway your own account contracts, by the
  Use `cd Account-Abstraction-for-Starknet-Hardhat` to go to the root of the project.  
  Run `npm install` in this directory.  
 
- This project has been written with cairo v0.10.1, starknet-devnet v0.3.5, starknet-hardhat-plugin v0.6.8. Due to fast iterations of Starknet and Cairo ; they will probably be quickly out-of-date.
+ This project has been written with cairo v0.10.1, starknet-devnet v0.3.5, starknet-hardhat-plugin v0.6.8. Due to fast iterations of Starknet and Cairo, they will probably be quickly out-of-date.
 
 ## Launch in devnet
 Open a console, and launch the devnet `starknet-devnet --seed 0`. It will launch a local Starknet network, and pre-deploy some accounts.
@@ -57,6 +57,7 @@ import "@shardlabs/starknet-hardhat-plugin";
 import "./src/HHstarknetAbstractAccount";
 ```
 Copy the `src/HHstarknetAbstractAccount` directory and its content to your project.  
+
 You have to organize your cairo account contract like this : 
  
 ![dir](pictures/AAcontractLocation.png)   
@@ -64,7 +65,7 @@ You have to organize your cairo account contract like this :
 **v1_0 _0** is the version of the contract.   
 Under, you can see your contract source files ; **myAccountAbstraction.cairo** is the "root" of these files.
 
-You can add a new tree in `accountAA_contracts`, with a different name for `myContractAA` ; you will have just to adapt in accordance your .ts code. The root file shall remain `myAccountAbstraction.cairo`. Today, the version shall not be modified.  
+You can add a new tree in `accountAA_contracts`, with a different name for `myContractAA` ; you will have just to adapt in accordance your .ts code. The root file shall remain `myAccountAbstraction.cairo`. Today, the version shall not be modified, and the constructor accepts only one parameter "publicKey".  
  The current code of the extension uses standard Starknet hash,keys and signatures. If you plan to work on a wallet account that experiment exotic choices for these topics, you will have to dig in the `accountAA.ts` file, and change the code to your needs.
 
  See the scripts/testAA.ts code to have an example of code implementation.  
@@ -74,25 +75,25 @@ import { AAccount } from "hardhat";
 ```  
 
 Then you have access to the following functions :
-### deployAccountAA
+### deployAccountAA :
 **Deploy a new wallet account**  
 Usage :  
 ```
 const Account = await AAccount.deployAccountAA("myContractAA");
 ```
-### getAccountAAfromAddress
+### getAccountAAfromAddress :
 **Deploy an existing wallet account**  
 Usage :  
 ```
 const Account = await AAccount.getAccountAAfromAddress(WalletAddress, privateKey, "myContractAA");
 ```
 
-### Account object
-The resulting Account Object has the same methods than a standard wallets :  
+### Account object :
+The resulting Account Object has the same methods than a standard wallet :  
 - invoke  (single & multi)
 - call  (single & multi)
 - declare  (Fees mandatory on Starknet Alpha testnet)
-- estimateFee  (not yet available for declare function)
+- estimateFee  (not yet available for 'declare' function)
 - .address  
 - .privatekey  
 and you don't have to manage hash & signatures in your tests code.  
