@@ -12,7 +12,7 @@ async function main() {
     const whichNetwork = hre.config.starknet.network;
     console.log("\nworking in network : " + LogC.fg.yellow + whichNetwork, LogC.reset);
     console.log("example.sayHello =", hre.AAccount.sayHello(), "\nAAccount compilation and deployment in progress...");
-    const Test1Account = await AAccount.deployAccountAA("myContractAA");
+    const Test1Account = await AAccount.deployAccountAA("myContractAA", {});
     const Test1address = adaptAddress(Test1Account.address);
     console.log("✅ AAccount1 deployed at = " + LogC.fg.green + Test1address + LogC.reset);
     console.log("   wallet private key = " + LogC.fg.green + Test1Account.privateKey + LogC.reset)

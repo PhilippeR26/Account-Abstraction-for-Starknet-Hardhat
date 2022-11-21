@@ -3,7 +3,7 @@
 import path from "path";
 import { Account } from "@shardlabs/starknet-hardhat-plugin/dist/src/account";
 import { DeployAccountOptions, StarknetContract } from "@shardlabs/starknet-hardhat-plugin/dist/src/types";
-import { HardhatRuntimeEnvironment } from "hardhat/types";
+import { HardhatRuntimeEnvironment, StringMap } from "hardhat/types";
 import { TransactionHashPrefix, TRANSACTION_VERSION } from "@shardlabs/starknet-hardhat-plugin/dist/src/constants";
 import { Call, hash, RawCalldata } from "starknet";
 import { StarknetChainId } from "starknet/constants";
@@ -80,6 +80,7 @@ export class OZaccountAA extends Account {
     static async deployAAfromABI(
         hre: HardhatRuntimeEnvironment,
         AAtype: string,
+        constructorAA: StringMap,
         options: DeployAccountOptions = {}
     ): Promise<OZaccountAA> {
         // 
@@ -93,8 +94,9 @@ export class OZaccountAA extends Account {
         const signer = generateKeys(options.privateKey);
 
         const contractFactory = await hre.starknet.getContractFactory(contractPath);
+        const constructor: StringMap = { ...constructorAA, publicKey: BigInt(signer.publicKey) };
         const contract = await contractFactory.deploy(
-            { publicKey: BigInt(signer.publicKey) },
+            constructor,
             options
         );
 
