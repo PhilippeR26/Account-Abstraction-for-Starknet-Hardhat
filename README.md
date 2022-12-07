@@ -19,7 +19,7 @@
  Run `npm install` in this directory. 
  Activate your python venv.
 
- This project has been written with cairo v0.10.1, starknet-devnet v0.4.0, starknet-hardhat-plugin v0.6.8. 
+ This project has been written with cairo v0.10.3, starknet-devnet v0.4.2, starknet-hardhat-plugin v0.6.8. 
  Due to fast iterations of Starknet and Cairo, they will probably be quickly out-of-date.
 
 ## Launch in devnet

@@ -272,7 +272,7 @@
             "ecdsa",
             "bitwise"
         ],
-        "compiler_version": "0.10.1",
+        "compiler_version": "0.10.3",
         "data": [
             "0x40780017fff7fff",
             "0x1",
@@ -2289,8 +2289,8 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 28,
-                        "end_line": 51,
+                        "end_col": 7,
+                        "end_line": 52,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -2306,8 +2306,8 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 28,
-                        "end_line": 51,
+                        "end_col": 7,
+                        "end_line": 52,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -2323,8 +2323,8 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 28,
-                        "end_line": 51,
+                        "end_col": 7,
+                        "end_line": 52,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -2340,8 +2340,8 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 28,
-                        "end_line": 51,
+                        "end_col": 7,
+                        "end_line": 52,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -2357,8 +2357,8 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 28,
-                        "end_line": 51,
+                        "end_col": 7,
+                        "end_line": 52,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -2376,19 +2376,19 @@
                         {
                             "location": {
                                 "end_col": 88,
-                                "end_line": 52,
+                                "end_line": 53,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "start_col": 5,
-                                "start_line": 52
+                                "start_line": 53
                             },
                             "n_prefix_newlines": 0
                         }
                     ],
                     "inst": {
                         "end_col": 54,
-                        "end_line": 55,
+                        "end_line": 56,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -2402,12 +2402,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 75,
-                                        "end_line": 56,
+                                        "end_line": 57,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 56
+                                        "start_line": 57
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
@@ -2417,7 +2417,7 @@
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 23,
-                        "start_line": 55
+                        "start_line": 56
                     }
                 },
                 "83": {
@@ -2429,12 +2429,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 47,
-                        "end_line": 56,
+                        "end_line": 57,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 26,
-                        "start_line": 56
+                        "start_line": 57
                     }
                 },
                 "84": {
@@ -2446,12 +2446,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 73,
-                        "end_line": 56,
+                        "end_line": 57,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 57,
-                        "start_line": 56
+                        "start_line": 57
                     }
                 },
                 "85": {
@@ -2463,12 +2463,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 75,
-                        "end_line": 56,
+                        "end_line": 57,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 56
+                        "start_line": 57
                     }
                 },
                 "86": {
@@ -2480,12 +2480,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 90,
-                        "end_line": 198,
+                        "end_line": 202,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 63,
-                        "start_line": 198
+                        "start_line": 202
                     }
                 },
                 "88": {
@@ -2497,12 +2497,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 92,
-                        "end_line": 198,
+                        "end_line": 202,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 198
+                        "start_line": 202
                     }
                 },
                 "89": {
@@ -2515,48 +2515,48 @@
                         {
                             "location": {
                                 "end_col": 93,
-                                "end_line": 199,
+                                "end_line": 203,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "start_col": 5,
-                                "start_line": 199
+                                "start_line": 203
                             },
                             "n_prefix_newlines": 0
                         }
                     ],
                     "inst": {
                         "end_col": 58,
-                        "end_line": 200,
+                        "end_line": 204,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 43,
-                                "end_line": 196,
+                                "end_line": 200,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 61,
-                                        "end_line": 201,
+                                        "end_line": 205,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 201
+                                        "start_line": 205
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 25,
-                                "start_line": 196
+                                "start_line": 200
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 23,
-                        "start_line": 200
+                        "start_line": 204
                     }
                 },
                 "91": {
@@ -2568,12 +2568,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 59,
-                        "end_line": 201,
+                        "end_line": 205,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 28,
-                        "start_line": 201
+                        "start_line": 205
                     }
                 },
                 "92": {
@@ -2585,12 +2585,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 61,
-                        "end_line": 201,
+                        "end_line": 205,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 201
+                        "start_line": 205
                     }
                 },
                 "93": {
@@ -2602,12 +2602,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 94,
-                        "end_line": 272,
+                        "end_line": 276,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 65,
-                        "start_line": 272
+                        "start_line": 276
                     }
                 },
                 "95": {
@@ -2619,12 +2619,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 96,
-                        "end_line": 272,
+                        "end_line": 276,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 272
+                        "start_line": 276
                     }
                 },
                 "96": {
@@ -2637,48 +2637,48 @@
                         {
                             "location": {
                                 "end_col": 95,
-                                "end_line": 273,
+                                "end_line": 277,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "start_col": 5,
-                                "start_line": 273
+                                "start_line": 277
                             },
                             "n_prefix_newlines": 0
                         }
                     ],
                     "inst": {
                         "end_col": 60,
-                        "end_line": 274,
+                        "end_line": 278,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 45,
-                                "end_line": 270,
+                                "end_line": 274,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 65,
-                                        "end_line": 275,
+                                        "end_line": 279,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 275
+                                        "start_line": 279
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 27,
-                                "start_line": 270
+                                "start_line": 274
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 23,
-                        "start_line": 274
+                        "start_line": 278
                     }
                 },
                 "98": {
@@ -2690,12 +2690,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 63,
-                        "end_line": 275,
+                        "end_line": 279,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 30,
-                        "start_line": 275
+                        "start_line": 279
                     }
                 },
                 "99": {
@@ -2707,12 +2707,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 65,
-                        "end_line": 275,
+                        "end_line": 279,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 275
+                        "start_line": 279
                     }
                 },
                 "100": {
@@ -2724,12 +2724,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 79,
-                        "end_line": 350,
+                        "end_line": 354,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 58,
-                        "start_line": 350
+                        "start_line": 354
                     }
                 },
                 "102": {
@@ -2741,12 +2741,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 98,
-                        "end_line": 350,
+                        "end_line": 354,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 350
+                        "start_line": 354
                     }
                 },
                 "103": {
@@ -2758,12 +2758,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 98,
-                        "end_line": 350,
+                        "end_line": 354,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 350
+                        "start_line": 354
                     }
                 },
                 "104": {
@@ -2776,48 +2776,48 @@
                         {
                             "location": {
                                 "end_col": 87,
-                                "end_line": 351,
+                                "end_line": 355,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "start_col": 5,
-                                "start_line": 351
+                                "start_line": 355
                             },
                             "n_prefix_newlines": 0
                         }
                     ],
                     "inst": {
                         "end_col": 53,
-                        "end_line": 353,
+                        "end_line": 357,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 37,
-                                "end_line": 348,
+                                "end_line": 352,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 35,
-                                        "end_line": 354,
+                                        "end_line": 358,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 354
+                                        "start_line": 358
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 19,
-                                "start_line": 348
+                                "start_line": 352
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 23,
-                        "start_line": 353
+                        "start_line": 357
                     }
                 },
                 "106": {
@@ -2829,12 +2829,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 33,
-                        "end_line": 354,
+                        "end_line": 358,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 19,
-                        "start_line": 354
+                        "start_line": 358
                     }
                 },
                 "107": {
@@ -2846,12 +2846,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 35,
-                        "end_line": 354,
+                        "end_line": 358,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 354
+                        "start_line": 358
                     }
                 },
                 "108": {
@@ -2863,12 +2863,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 40,
-                        "end_line": 368,
+                        "end_line": 372,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 18,
-                        "start_line": 368
+                        "start_line": 372
                     }
                 },
                 "110": {
@@ -2879,13 +2879,13 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 72,
-                        "end_line": 368,
+                        "end_col": 7,
+                        "end_line": 373,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 367
+                        "start_line": 371
                     }
                 },
                 "111": {
@@ -2896,13 +2896,13 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 72,
-                        "end_line": 368,
+                        "end_col": 7,
+                        "end_line": 373,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 367
+                        "start_line": 371
                     }
                 },
                 "112": {
@@ -2913,13 +2913,13 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 72,
-                        "end_line": 368,
+                        "end_col": 7,
+                        "end_line": 373,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 367
+                        "start_line": 371
                     }
                 },
                 "113": {
@@ -2932,48 +2932,48 @@
                         {
                             "location": {
                                 "end_col": 88,
-                                "end_line": 369,
+                                "end_line": 374,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "start_col": 5,
-                                "start_line": 369
+                                "start_line": 374
                             },
                             "n_prefix_newlines": 0
                         }
                     ],
                     "inst": {
                         "end_col": 54,
-                        "end_line": 370,
+                        "end_line": 375,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 38,
-                                "end_line": 366,
+                                "end_line": 370,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 15,
-                                        "end_line": 371,
+                                        "end_line": 376,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 371
+                                        "start_line": 376
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 20,
-                                "start_line": 366
+                                "start_line": 370
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 23,
-                        "start_line": 370
+                        "start_line": 375
                     }
                 },
                 "115": {
@@ -2985,12 +2985,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 15,
-                        "end_line": 371,
+                        "end_line": 376,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 371
+                        "start_line": 376
                     }
                 },
                 "116": {
@@ -3002,12 +3002,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 76,
-                        "end_line": 440,
+                        "end_line": 446,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 56,
-                        "start_line": 440
+                        "start_line": 446
                     }
                 },
                 "118": {
@@ -3019,12 +3019,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 78,
-                        "end_line": 440,
+                        "end_line": 446,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 440
+                        "start_line": 446
                     }
                 },
                 "119": {
@@ -3037,48 +3037,48 @@
                         {
                             "location": {
                                 "end_col": 86,
-                                "end_line": 441,
+                                "end_line": 447,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "start_col": 5,
-                                "start_line": 441
+                                "start_line": 447
                             },
                             "n_prefix_newlines": 0
                         }
                     ],
                     "inst": {
                         "end_col": 51,
-                        "end_line": 443,
+                        "end_line": 449,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 36,
-                                "end_line": 438,
+                                "end_line": 444,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
                                 "parent_location": [
                                     {
                                         "end_col": 39,
-                                        "end_line": 444,
+                                        "end_line": 450,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 444
+                                        "start_line": 450
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 438
+                                "start_line": 444
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 23,
-                        "start_line": 443
+                        "start_line": 449
                     }
                 },
                 "121": {
@@ -3090,12 +3090,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 37,
-                        "end_line": 444,
+                        "end_line": 450,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 21,
-                        "start_line": 444
+                        "start_line": 450
                     }
                 },
                 "122": {
@@ -3107,12 +3107,12 @@
                     "hints": [],
                     "inst": {
                         "end_col": 39,
-                        "end_line": 444,
+                        "end_line": 450,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 444
+                        "start_line": 450
                     }
                 },
                 "123": {
@@ -3818,7 +3818,7 @@
                         "parent_location": [
                             {
                                 "end_col": 37,
-                                "end_line": 348,
+                                "end_line": 352,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
@@ -3835,7 +3835,7 @@
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 19,
-                                "start_line": 348
+                                "start_line": 352
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
@@ -3901,7 +3901,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 37,
-                        "end_line": 348,
+                        "end_line": 352,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -3930,7 +3930,7 @@
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 19,
-                        "start_line": 348
+                        "start_line": 352
                     }
                 },
                 "162": {
@@ -4184,7 +4184,7 @@
                         "parent_location": [
                             {
                                 "end_col": 38,
-                                "end_line": 366,
+                                "end_line": 370,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
@@ -4201,7 +4201,7 @@
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 20,
-                                "start_line": 366
+                                "start_line": 370
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
@@ -4610,7 +4610,7 @@
                         "parent_location": [
                             {
                                 "end_col": 45,
-                                "end_line": 270,
+                                "end_line": 274,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
@@ -4627,7 +4627,7 @@
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 27,
-                                "start_line": 270
+                                "start_line": 274
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
@@ -4663,7 +4663,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 45,
-                        "end_line": 270,
+                        "end_line": 274,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -4677,7 +4677,7 @@
                                 "parent_location": [
                                     {
                                         "end_col": 43,
-                                        "end_line": 196,
+                                        "end_line": 200,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
@@ -4694,7 +4694,7 @@
                                             "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                         ],
                                         "start_col": 25,
-                                        "start_line": 196
+                                        "start_line": 200
                                     },
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
@@ -4704,7 +4704,7 @@
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 27,
-                        "start_line": 270
+                        "start_line": 274
                     }
                 },
                 "189": {
@@ -4753,7 +4753,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 43,
-                        "end_line": 196,
+                        "end_line": 200,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -4794,7 +4794,7 @@
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 25,
-                        "start_line": 196
+                        "start_line": 200
                     }
                 },
                 "193": {
@@ -6356,7 +6356,7 @@
                         "parent_location": [
                             {
                                 "end_col": 36,
-                                "end_line": 438,
+                                "end_line": 444,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
@@ -6373,7 +6373,7 @@
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 438
+                                "start_line": 444
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
@@ -6595,7 +6595,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 36,
-                        "end_line": 438,
+                        "end_line": 444,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -6609,7 +6609,7 @@
                                 "parent_location": [
                                     {
                                         "end_col": 43,
-                                        "end_line": 196,
+                                        "end_line": 200,
                                         "input_file": {
                                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                         },
@@ -6626,7 +6626,7 @@
                                             "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                         ],
                                         "start_col": 25,
-                                        "start_line": 196
+                                        "start_line": 200
                                     },
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
@@ -6636,7 +6636,7 @@
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 18,
-                        "start_line": 438
+                        "start_line": 444
                     }
                 },
                 "270": {
@@ -6733,7 +6733,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 43,
-                        "end_line": 196,
+                        "end_line": 200,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -6774,7 +6774,7 @@
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 25,
-                        "start_line": 196
+                        "start_line": 200
                     }
                 },
                 "278": {
@@ -15106,7 +15106,7 @@
                         "parent_location": [
                             {
                                 "end_col": 36,
-                                "end_line": 438,
+                                "end_line": 444,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
@@ -15123,7 +15123,7 @@
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 438
+                                "start_line": 444
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
@@ -15159,7 +15159,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 36,
-                        "end_line": 438,
+                        "end_line": 444,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -15200,7 +15200,7 @@
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 18,
-                        "start_line": 438
+                        "start_line": 444
                     }
                 },
                 "535": {
@@ -17336,7 +17336,7 @@
                         "parent_location": [
                             {
                                 "end_col": 36,
-                                "end_line": 438,
+                                "end_line": 444,
                                 "input_file": {
                                     "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                                 },
@@ -17353,7 +17353,7 @@
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
                                 "start_col": 18,
-                                "start_line": 438
+                                "start_line": 444
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
@@ -17389,7 +17389,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 36,
-                        "end_line": 438,
+                        "end_line": 444,
                         "input_file": {
                             "filename": "/home/edmond/cairo_venv/lib/python3.9/site-packages/starkware/starknet/common/syscalls.cairo"
                         },
@@ -17430,7 +17430,7 @@
                             "While trying to update the implicit return value 'syscall_ptr' in:"
                         ],
                         "start_col": 18,
-                        "start_line": 438
+                        "start_line": 444
                     }
                 },
                 "594": {
