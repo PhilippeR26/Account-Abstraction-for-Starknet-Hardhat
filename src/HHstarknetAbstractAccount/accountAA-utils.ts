@@ -5,7 +5,7 @@ import { ec } from "elliptic";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import * as fs from "fs";
 import path from "path";
-import { ABI_SUFFIX, ACCOUNT_ARTIFACTS_DIR } from "@shardlabs/starknet-hardhat-plugin/dist/src//constants";
+import { ABI_SUFFIX } from "@shardlabs/starknet-hardhat-plugin/dist/src/constants";
 import { ACCOUNTAA_CONTRACTS_DIR } from "./constantsAA";
 import { StarknetPluginError } from "@shardlabs/starknet-hardhat-plugin/dist/src/starknet-plugin-error";
 //import { flattenStringMap } from "./utils";

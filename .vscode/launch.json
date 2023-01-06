@@ -12,7 +12,7 @@
             "args": [
                 "run",
                 "--verbose",
-                "${workspaceFolder}/scripts/testAA.ts"
+                "${workspaceFolder}/scripts/testDeployHashOZ.ts"
             ],
             "preLaunchTask": "tsc: build - tsconfig.json",
             "console": "integratedTerminal",

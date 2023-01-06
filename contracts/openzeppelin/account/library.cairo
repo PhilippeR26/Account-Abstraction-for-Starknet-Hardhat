@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// OpenZeppelin Contracts for Cairo v0.5.0 (account/library.cairo)
+// OpenZeppelin Contracts for Cairo v0.5.1 (account/library.cairo)
 
 %lang starknet
 
@@ -16,14 +16,10 @@ from starkware.starknet.common.syscalls import (
     call_contract,
     get_caller_address,
     get_contract_address,
-    get_tx_info
+    get_tx_info,
 )
 from starkware.cairo.common.cairo_secp.signature import verify_eth_signature_uint256
-from openzeppelin.utils.constants.library import (
-    IACCOUNT_ID,
-    IERC165_ID,
-    TRANSACTION_VERSION
-)
+from openzeppelin.utils.constants.library import IACCOUNT_ID, IERC165_ID, TRANSACTION_VERSION
 
 //
 // Storage
@@ -61,6 +57,7 @@ namespace Account {
     func initializer{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
         _public_key: felt
     ) {
+        %{ print(f"***** initializer:_public_key =  {ids._public_key}") %}
         Account_public_key.write(_public_key);
         return ();
     }
@@ -88,9 +85,9 @@ namespace Account {
         return Account_public_key.read();
     }
 
-    func supports_interface{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(interface_id: felt) -> (
-        success: felt
-    ) {
+    func supports_interface{syscall_ptr: felt*, pedersen_ptr: HashBuiltin*, range_check_ptr}(
+        interface_id: felt
+    ) -> (success: felt) {
         if (interface_id == IERC165_ID) {
             return (success=TRUE);
         }
@@ -129,6 +126,10 @@ namespace Account {
         // But this implementation does, and it expects a (sig_r, sig_s) pair.
         let sig_r = signature[0];
         let sig_s = signature[1];
+        %{ print(f"***** is_valid_signature:hash =  {ids.hash}") %}
+        %{ print(f"***** is_valid_signature:_public_key =  {ids._public_key}") %}
+        %{ print(f"***** is_valid_signature:sig_r =  {ids.sig_r}") %}
+        %{ print(f"***** is_valid_signature:sig_s =  {ids.sig_s}") %}
 
         verify_ecdsa_signature(
             message=hash, public_key=_public_key, signature_r=sig_r, signature_s=sig_s
@@ -243,8 +244,8 @@ namespace Account {
             to=[call_array].to,
             selector=[call_array].selector,
             calldata_len=[call_array].data_len,
-            calldata=calldata + [call_array].data_offset
-            );
+            calldata=calldata + [call_array].data_offset,
+        );
         // parse the remaining calls recursively
         _from_call_array_to_call(
             call_array_len - 1, call_array + AccountCallArray.SIZE, calldata, calls + Call.SIZE

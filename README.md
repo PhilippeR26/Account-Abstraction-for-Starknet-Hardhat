@@ -1,4 +1,6 @@
-#  💰 Account abstraction with Hardhat v1.1.0 💰 
+#  💰 Account abstraction with Hardhat v2.0.0 💰 
+🚧🚧🚧🚧🚧 Work in progress. Enter at your own risks 🚧🚧🚧🚧🚧
+
 ## extension of Hardhat starknet plugin
 
  This repo is showing a way to develop account abstraction in Starknet Network.  

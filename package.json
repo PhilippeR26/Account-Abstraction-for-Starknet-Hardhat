@@ -1,7 +1,7 @@
 {
-  "name": "askyourparents-contracts",
-  "version": "1.1.0",
-  "description": "STARKNET CAIRO contracts for AskYourParents DAPP",
+  "name": "account-abstraction-starknet",
+  "version": "2.0.0",
+  "description": "STARKNET CAIRO Hardhat account abstraction",
   "main": "index.js",
   "scripts": {
     "devnet": "starknet-devnet --seed 0 2> /dev/null &",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/PhilippeR26/AskYourParents-contracts#readme",
   "devDependencies": {
-    "@shardlabs/starknet-hardhat-plugin": "^0.6.8",
+    "@shardlabs/starknet-hardhat-plugin": "^0.7.1",
     "@types/chai": "^4.3.3",
     "@types/elliptic": "^6.4.14",
     "@types/minimalistic-assert": "^1.0.1",
