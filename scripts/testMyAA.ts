@@ -39,7 +39,7 @@ async function main() {
     console.log("classHash =", classHash);
 
 
-    const signer = generateKeys("0x1234");
+    const signer = generateKeys("0x12345789012345678901234");
     const salt = signer.publicKey;
     const pubKey = signer.publicKey;
     const pubKeyNum = BigInt(pubKey).toString()
@@ -64,7 +64,7 @@ async function main() {
     console.log('Answer mint =', answer);
 
     // ...
-    const deploymentTxHash = await myAccount.deployAccount();
+    const deploymentTxHash = await myAccount.deployAccount({ maxFee: 9000000000000000 });
 
 
     console.log("\n✅ AAccount deployed at = " + LogC.fg.green + myAccount.addressAccount + LogC.reset);

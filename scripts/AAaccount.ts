@@ -90,10 +90,11 @@ export class MyAccountSimple extends Account {
         const salt = options.salt || generateRandomSalt();
         const contractFactory = await hre.starknet.getContractFactory(MyAccountSimple.MYACCOUNTPATH);
         const classHash = options.classH || await contractFactory.getClassHash();
+
         const address = hash.calculateContractAddressFromHash(
             salt,
             classHash,
-            [signer.publicKey],
+            constructorCalldata,
             "0x0" // deployer address
         );
         const contract = contractFactory.getContractAt(address);
@@ -138,12 +139,7 @@ export class MyAccountSimple extends Account {
         const classHash = this.classHash;
         //const constructorCalldata = [BigInt(this.publicKey).toString()];
         console.log("hre.starknet.networkConfig.starknetChainId =", hre.starknet.networkConfig.starknetChainId);
-        console.log("for message Hash calculation =", this.addressAccount,
-            this.constructorCalldata,
-            this.salt,
-            classHash,
-            maxFee,
-            hre.starknet.networkConfig.starknetChainId ?? StarknetChainId.TESTNET);
+
         const msgHash = calculateDeployAccountHash(
             this.addressAccount,
             this.constructorCalldata,
@@ -152,13 +148,8 @@ export class MyAccountSimple extends Account {
             maxFee,
             hre.starknet.networkConfig.starknetChainId ?? StarknetChainId.TESTNET
         );
-        console.log("msgHash Num =", BigInt(msgHash).toString());
-        console.log("lancement commande deploy.");
-        console.log(this.getSignatures(msgHash).map((val) => val.toString()),
-            classHash,
-            this.constructorCalldata,
-            this.salt,
-            maxFee);
+        console.log("lancement commande deploy...");
+
         const deploymentTxHash = await sendDeployAccountTx(
             this.getSignatures(msgHash).map((val) => val.toString()),
             classHash,

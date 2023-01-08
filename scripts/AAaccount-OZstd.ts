@@ -93,7 +93,7 @@ export class MyAccountOZstd extends Account {
         const address = hash.calculateContractAddressFromHash(
             salt,
             classHash,
-            [signer.publicKey],
+            constructorCalldata,
             "0x0" // deployer address
         );
         const contract = contractFactory.getContractAt(address);
